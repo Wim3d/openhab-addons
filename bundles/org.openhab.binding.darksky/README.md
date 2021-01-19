@@ -191,7 +191,7 @@ Number:Temperature localCurrentTemperature "Current temperature [%.1f %unit%]" <
 Number:Temperature localCurrentApparentTemperature "Current apparent temperature [%.1f %unit%]" <temperature> { channel="darksky:weather-and-forecast:api:local:current#apparent-temperature" }
 Number:Pressure localCurrentPressure "Current barometric pressure [%.1f %unit%]" <pressure> { channel="darksky:weather-and-forecast:api:local:current#pressure" }
 Number:Dimensionless localCurrentHumidity "Current atmospheric humidity [%d %unit%]" <humidity> { channel="darksky:weather-and-forecast:api:local:current#humidity" }
-Number:Speed localCurrentWindSpeed "Current wind speed [%.1f km/h]" <wind> { channel="darksky:weather-and-forecast:api:local:current#wind-speed" }
+Number:Speed localCurrentWindSpeed "Current wind speed [%.1f m/s]" <wind> { channel="darksky:weather-and-forecast:api:local:current#wind-speed" }
 Number:Angle localCurrentWindDirection "Current wind direction [%d %unit%]" <wind> { channel="darksky:weather-and-forecast:api:local:current#wind-direction" }
 Number:Dimensionless localCurrentCloudiness "Current cloudiness [%d %unit%]" <clouds> { channel="darksky:weather-and-forecast:api:local:current#cloudiness" }
 Number:Length localCurrentVisibility "Current visibility [%.1f %unit%]" <none> { channel="darksky:weather-and-forecast:api:local:current#visibility" }
@@ -214,7 +214,7 @@ Number:Temperature localDailyForecastTodayMinApparentTemperature "Minimum appare
 Number:Temperature localDailyForecastTodayMaxApparentTemperature "Maximum apparent temperature for today [%.1f %unit%]" <temperature> { channel="darksky:weather-and-forecast:api:local:forecastToday#max-apparent-temperature" }
 Number:Pressure localDailyForecastTodayPressure "Barometric pressure for today [%.1f %unit%]" <pressure> { channel="darksky:weather-and-forecast:api:local:forecastToday#pressure" }
 Number:Dimensionless localDailyForecastTodayHumidity "Atmospheric humidity for today [%d %unit%]" <humidity> { channel="darksky:weather-and-forecast:api:local:forecastToday#humidity" }
-Number:Speed localDailyForecastTodayWindSpeed "Wind speed for today [%.1f km/h]" <wind> { channel="darksky:weather-and-forecast:api:local:forecastToday#wind-speed" }
+Number:Speed localDailyForecastTodayWindSpeed "Wind speed for today [%.1f m/s]" <wind> { channel="darksky:weather-and-forecast:api:local:forecastToday#wind-speed" }
 Number:Angle localDailyForecastTodayWindDirection "Wind direction for today [%d %unit%]" <wind> { channel="darksky:weather-and-forecast:api:local:forecastToday#wind-direction" }
 Number:Dimensionless localDailyForecastTodayCloudiness "Cloudiness for today [%d %unit%]" <clouds> { channel="darksky:weather-and-forecast:api:local:forecastToday#cloudiness" }
 Number:Speed localDailyForecastTodayRainIntensity "Rain intensity for today [%.2f mm/h]" <rain> { channel="darksky:weather-and-forecast:api:local:forecastToday#rain" }
